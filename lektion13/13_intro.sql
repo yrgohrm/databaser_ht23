@@ -46,7 +46,7 @@ CREATE TABLE Highscore (
 GO
 
 INSERT INTO Highscore (userName, date, difficulty, score) VALUES
-    ('Hampus', CURRENT_TIMESTAMP, 'S', 1234);
+    ('Hampus', CURRENT_TIMESTAMP, 'M', 1);
 GO
 
 SELECT * FROM Highscore;
